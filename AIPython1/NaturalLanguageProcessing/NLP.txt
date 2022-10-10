@@ -1,0 +1,44 @@
+Natural Language Processing : helps computer to interprets humans language .
+    spam filtration , sentiment analysis , automatic answering machine,machine translation .
+      
+      
+-> Grammar : 
+
+constituency grammar
+
+dependency grammar
+
+regular expressions:
+    
+Tokenization
+    sentence splitting
+    
+
+
+Byte Pair Encoding
+    1. split the words in the corpus into characters after appending </w>
+    2.initialize the vocabulary with unique character in the corpus
+    3. computed the frequency of the pair characters or character  sequences in corpus 
+    4. merge the most frequent pair of corpus
+    5. save the best pair to the vocabulary
+    6.repeat steps 4 to 5 for a certain number of iterations
+ 
+  
+ Applying BPE to OOV words
+     1.split of out of vocabulary word into characters after appending </w>
+     2.Compute pair of character or character sequences in a word
+     3.select the pairs present in the learned operations .
+     4. merge the most frequent pair .
+      6.repeat steps 2 to 3 until merging is possible .
+      
+Stemming :
+     is a technique used to extract the base form of the word by removing the affixes
+     eating eats eaten becomes eat 
+     
+     PORTER STEMMING ALGORITHM
+         
+
+
+
+        
+    

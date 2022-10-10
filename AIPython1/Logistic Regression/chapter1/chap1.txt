@@ -1,0 +1,4 @@
+Logistic Regression
+
+its is a supervised algorithm and belongs to classification category
+
